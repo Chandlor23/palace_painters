@@ -8,27 +8,27 @@ app.get('/', function (req, res) {
 });
 
 app.get('/about', function (req, res) {
-    res.sendFile('/Users/gavin/Desktop/money over bitches/painting/html/about.html');
+    res.sendFile(__dirname + '/html/about.html');
   });
 
 app.get('/buy', function (req, res) {
-    res.sendFile('/Users/gavin/Desktop/money over bitches/painting/html/buy.html');
+    res.sendFile(__dirname + '/html/buy.html');
   });
 
 app.get('/contact', function (req, res) {
-    res.sendFile('/Users/gavin/Desktop/money over bitches/painting/html/contact.html');
+    res.sendFile(__dirname + '/html/contact.html');
   });
 
 app.get('/faq', function (req, res) {
-    res.sendFile('/Users/gavin/Desktop/money over bitches/painting/html/faq.html');
+    res.sendFile(__dirname + '/html/faq.html');
   });
 
 app.get('/pricing', function (req, res) {
-    res.sendFile('/Users/gavin/Desktop/money over bitches/painting/html/pricing.html');
+    res.sendFile(__dirname + '/html/pricing.html');
   });
 
 app.get('/projects', function (req, res) {
-    res.sendFile('/Users/gavin/Desktop/money over bitches/painting/html/projects.html');
+    res.sendFile(__dirname + '/html/projects.html');
   });
  
 app.listen(5000);
