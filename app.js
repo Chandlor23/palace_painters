@@ -4,7 +4,7 @@ const app = express();
 app.use(express.static('public'));
 
 app.get('/', function (req, res) {
-  res.sendFile('/Users/gavin/Desktop/money over bitches/painting/html/index.html');
+  res.sendFile(__dirname + '/html/index.html');
 });
 
 app.get('/about', function (req, res) {
