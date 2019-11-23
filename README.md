@@ -1,3 +1,3 @@
 # palace_painters
-**Contribute**
+**Contribute (NOT ACCEPTING OUTSIDE CONTRIBUTIONS)**
 - npm install express
