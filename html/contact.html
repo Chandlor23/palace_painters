@@ -1,17 +1,18 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>Palace Painters</title>
-  <link rel="icon" type="image/png" href="/images/logo.png">
-  <meta name="description" content="Palace Painters">
-  <meta name="author" content="Gavin Estaco">
+    <title>Palace Painters</title>
+    <link rel="icon" type="image/png" href="/images/logo.png">
+    <meta name="description" content="Palace Painters">
+    <meta name="author" content="Gavin Estaco">
 
-  <link rel="stylesheet" href="/styles.css">
-  <script src="js/scripts.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styleTony.css">
+    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
 
 </head>
 
@@ -19,18 +20,77 @@
     <div class="header">
         <a href="/">
             <div class="home-container">
-            <img src="images/logo.png">
-            <h2>Palace Painters</h2>
+                <img src="images/logo.png">
+                <h2>Palace Painters</h2>
             </div>
         </a>
 
         <nav>
-            <a href="/projects"><h3>Past Projects</h3></a>
-            <a href="/pricing"><h3>Pricing</h3></a>
-            <a href="/about"><h3>About</h3></a>
-            <a href="/faq"><h3>FAQ</h3></a>
+            <a href="/projects">
+                <h3>Past Projects</h3>
+            </a>
+            <a href="/pricing">
+                <h3>Pricing</h3>
+            </a>
+            <a href="/about">
+                <h3>About</h3>
+            </a>
+            <a href="/faq">
+                <h3>FAQ</h3>
+            </a>
         </nav>
     </div>
 
+    <div class="all">
+        <div class="cell">
+
+            <h1>Contact Information:</h1>
+
+            <h3>Call Tony: (727)-417-7686</h2>
+                <h3>Email Tony: tonysar4@gmail.com</h2>
+
+
+
+        </div>
+
+
+        <div class="forum">
+            <h1>What would you like?</h1>
+            <form method=post action="do_addtopic.php">
+
+                <div>
+                    <strong>Name:</strong><br>
+                    <input type="text" name="topic_owner" size=40 maxlength=150>
+                </div>
+
+                <div>
+                    <strong>Your Email Address:</strong><br>
+                    <input type="text" name="topic_title" size=40 maxlength=150>
+                </div>
+
+                <div>
+                    <strong>Squared Feet of Your House:</strong><br>
+                    <input type="text" name="topic_title" size=40 maxlength=150>
+                </div>
+
+                <div>
+                    <strong>Extra Information:</strong><br>
+                    <textarea name="post_text" rows=8 cols=40 wrap=virtual></textarea>
+                </div>
+
+                <input type="submit" name="submit" value="Submit">
+
+            </form>
+        </div>
+
+    </div>
+
+    <div class="home-main">
+        <img src="images/home-main.png">
+    </div>
+
+
+
 </body>
+
 </html>
