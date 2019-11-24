@@ -92,12 +92,15 @@ nav {
     width: 45%;
     position: fixed;
     right: 0;
+    z-index: -1;
 }
 
 .home-main img{
     width: 100%;
     height: 100%;
     max-width:100%;
+    
+
 }
  
 .big-container {
@@ -124,14 +127,56 @@ nav {
       box-shadow: 0 0 10px 2px white;
     }
   }
-  .aboutheader {
-    margin-top: 50px;
-    margin-left: 25px;
-    font-size: 25px;
-    font-weight: bolder;
+
+.palacePicture {
+    background-image: url("images/palace.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 250px;
 }
-  .abouttext {
-    margin-top: 50px;
+
+.palacePicture h1 {
+    text-align: center;
+    top: 40%;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+        1px 1px 0 #000;
+    font-size: 70px;
+    position: relative;
+}
+
+.chandlor-all {
+    width: 75%;
+    float: left;
     margin-left: 25px;
+}
+
+.abouttextheader {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-top: 0;
+}
+
+.abouttextheader, p {
+    margin-top: 0;
+}
+
+.abouttext1, .abouttext2 {
+    margin-top: px;
     font-size: 20px;
+    width: 45%;
+    display: inline-block;
+    text-indent: 50px;
 }
+
+.abouttext1 {
+    margin-right: 5%;  
+}
+
+
+
